@@ -1,4 +1,12 @@
-const email = 'flexicontact@example.org';
-const password = 'C0nt@ctW!se';
+class Credentials {
+  get email () { return ('minjatesting@yahoo.com'); }
+  get password () { return ('Minjatesting123!'); }
+  get wrongEmail () { return ('test@test.com'); }
+  get wrongPassword () { return ('1234'); }
+  get noEmail () { return (''); }
+  get noPassword () { return (''); }
+  get noCompanyName () { return (''); }
+  get noConfirmationPassword () { return (''); }
+}
 
-export { email, password };
+export default new Credentials();
